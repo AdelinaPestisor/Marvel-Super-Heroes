@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Marvel's Super Heroes</title>
 </head>
 <body>
@@ -11,61 +12,77 @@
         <div class="header">
             <div class="navigation">
                 <div class="logo">
-                    <img src ="img/logo-marvel-avenges.png" alt="logo Marvel Super Heroes" width="250px" height="150px">
+                    <img src ="img/logo-marvel-avengers.png" alt="logo Marvel Super Heroes" width="250px" height="150px">
                 </div>
                 <div class="links">
-                    <a href="#">About Marvel</a>
-                    <a href="#">Movies</a>
-                    <a href="#">TV Shows</a>
+                    <ul>
+                        <li>
+                            <a href="#">About Marvel</a>
+                        </li>
+                        <li>
+                            <a href="#">Movies</a>
+                        </li>
+                        <li>
+                            <a href="#">TV Shows</a>
+                        </li>
+                    </ul>
+                    
                 </div>
             </div>
             <div class="section-header">
                 <div class="discription">
-                    <h1>Journey into the cosmic depths of the mighty Marvel Super Heroes!</h1>
-                    <p> Stay up to date with the news about your favorite Avenger Super Heroes from the Marvel Universe.</p>
-                    <button>Sing up</button>
+                    <h1 class="header-title">Journey into the Marvel Super Heroes!</h1>
+                    <p class="header-information"> Stay up to date with the news about your favorite Avenger Super Heroes from the Marvel Universe. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit praesentium nihil voluptatibus commodi distinctio alias deleniti, cupiditate dignissimos doloribus consequuntur?</p>
+                    <button><a href="#">Sign up</a></button>
                 </div>
-                <div class="main-image">
-                    <img src="img/marvel-hero-picture.jpg" alt="Marvel comic books" width="500px" height="300px">
-                </div>
+                <!-- <div class="main-image"> -->
+                    <img src="img/marvel-hero-picture.jpg" alt="Marvel comic books" width="50%;" >
+                <!-- </div> -->
             </div>
         </div>
         <div class="heroes">
-            <h1>Avengers Super Heroes</h1>
+            <h2>Avengers Super Heroes</h2>
             <div class="hero-cards">
-                <div class="Loki">
-                    <img src="https://i.pinimg.com/originals/cc/d8/af/ccd8af1bf1b8294e7e2564dbbaf8515e.jpg" alt="Loki's picture" height="350px" width="350px">
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates consectetur similique et eius numquam excepturi.</p>
+                <div class="Loki card">
+                    <img src="https://i.pinimg.com/originals/cc/d8/af/ccd8af1bf1b8294e7e2564dbbaf8515e.jpg" alt="Loki's picture" height="250px" width="250px">
+                    <h4>Loki</h4>
+                    <p>Loki, Prince of Asgard, rightful heir of Jotunheim, and God of Mischief, is burdened with glorious purpose. His desire to be a king drives him to sow chaos in Asgard.</p>
                 </div>
-                <div class="Captain-America">
-                    <img src="https://www.sideshow.com/storage/product-images/904685/captain-america_marvel_square.jpg" alt="Captain-America's picture" height="350px" width="350px">
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates consectetur similique et eius numquam excepturi.</p>
+                <div class="Captain-America card">
+                    <img src="https://www.sideshow.com/storage/product-images/904685/captain-america_marvel_square.jpg" alt="Captain-America's picture" height="250px" width="250px">
+                    <h4>Captain America</h4>
+                    <p>When Steve Rogers asked Air Force Veteran Sam Wilson for help, Wilson immediately agreed. He donned the flight suit he’d used in combat to become the Falcon.</p>
                 </div>
-                <div class="Black-Widow">
-                    <img src="https://hips.hearstapps.com/digitalspyuk.cdnds.net/14/29/movies-the-avengers-black-widow-scarlett-johansson.jpg?crop=0.563xw:1.00xh;0.0432xw,0&resize=480:*" alt="Black-Widow's picture" height="350px" width="350px">
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates consectetur similique et eius numquam excepturi.</p>
+                <div class="Black-Widow card">
+                    <img src="https://hips.hearstapps.com/digitalspyuk.cdnds.net/14/29/movies-the-avengers-black-widow-scarlett-johansson.jpg?crop=0.563xw:1.00xh;0.0432xw,0&resize=480:*" alt="Black-Widow's picture" height="250px" width="250px">
+                    <h4>Black Widow </h4>
+                    <p>A deadly assassin is closing in on Natasha Romanoff. Now Natasha must reunite with an unlikely group of spies from her past in order to survive and stop a lethal force.</p>
                 </div>
-                <div class="Wanda-Maximoff">
-                    <img src="https://pbs.twimg.com/profile_images/1397089446391160835/X5Q6F70x_400x400.jpg" alt="Wanda-Maximoff's picture" height="350px" width="350px">
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates consectetur similique et eius numquam excepturi.</p>
+                <div class="Wanda-Maximoff card">
+                    <img src="https://pbs.twimg.com/profile_images/1397089446391160835/X5Q6F70x_400x400.jpg" alt="Wanda-Maximoff's picture" height="250px" width="250px">
+                    <h4>Wanda Maximoff</h4>
+                    <p>Notably powerful, Wanda Maximoff has fought both against and with the Avengers, attempting to hone her abilities and do what she believes is right.</p>
                 </div>
             </div>
-            <div class="quote">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore accusamus eveniet fugit, adipisci, distinctio quas dicta ullam quidem vel officia quis quod nobis beatae debitis porro deserunt illo ducimus veritatis.</p>
-                <p>-Surname Name</p>
+            <div class="quote-background">
+                <div class="quote">
+                    <p class="quote-text">“There’s no throne, there is no version of this, where you come out on top. Maybe your army comes and maybe it’s too much for us, but it’s all on you. Because if we can’t protect the Earth, you can be damned well sure we’ll avenge it.”</p>
+                    <p class="name">~ Tony Stark, Avengers</p>
+                </div>
             </div>
+            
             <div class="CTA">
                 <div class="CTA-text">
-                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis laudantium similique quibusdam quo voluptatem praesentium possimus, atque provident laboriosam voluptate?</p>
+                    <h3>Unlock the Universe</h3>
+                    <p>Get instant acces to all the digital comics on all devices, and many more benefits with Marvel Unlimited!</p>
                 </div>
-                <button>Sign up</button>
+                <button><a href="#">Sign up</a></button>
             </div>
         </div>
     </main>
 
     <footer>
-        Copyright &copy; Adelina Pestisor
+        Copyright &copy; Adelina-Pestisor
 
     </footer>
     
